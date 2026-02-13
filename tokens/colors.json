@@ -1,0 +1,66 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "meta": {
+    "name": "VeriAction Design Tokens - Colors",
+    "version": "1.0.0",
+    "description": "Color tokens for VeriAction design system. Extends Intenteon shared tokens.",
+    "source": "Intenteon/brand_guidelines + VeriAction Brand Guidelines"
+  },
+  "color": {
+    "primary": {
+      "DEFAULT": { "value": "#3B82F6", "type": "color", "description": "Primary blue - actions, links, focus rings" },
+      "hover": { "value": "#2563EB", "type": "color", "description": "Primary hover state" },
+      "light": { "value": "#60A5FA", "type": "color", "description": "Dark mode primary" },
+      "50": { "value": "#EFF6FF", "type": "color" },
+      "100": { "value": "#DBEAFE", "type": "color" },
+      "200": { "value": "#BFDBFE", "type": "color" },
+      "300": { "value": "#93C5FD", "type": "color" },
+      "400": { "value": "#60A5FA", "type": "color" },
+      "500": { "value": "#3B82F6", "type": "color" },
+      "600": { "value": "#2563EB", "type": "color" },
+      "700": { "value": "#1D4ED8", "type": "color" },
+      "800": { "value": "#1E40AF", "type": "color" },
+      "900": { "value": "#1E3A8A", "type": "color" }
+    },
+    "decision": {
+      "allow": { "value": "#10B981", "type": "color", "description": "ALLOW decisions, success states" },
+      "block": { "value": "#EF4444", "type": "color", "description": "BLOCK decisions, error states" },
+      "challenge": { "value": "#F59E0B", "type": "color", "description": "CHALLENGE decisions, warning states" }
+    },
+    "background": {
+      "primary": { "value": "#0A1628", "type": "color", "description": "Page background (dark mode)" },
+      "secondary": { "value": "#1A2744", "type": "color", "description": "Card/surface (dark mode)" },
+      "tertiary": { "value": "#243352", "type": "color", "description": "Elevated surface (dark mode)" },
+      "light-primary": { "value": "#FFFFFF", "type": "color", "description": "Page background (light mode)" },
+      "light-secondary": { "value": "#F8FAFC", "type": "color", "description": "Card/surface (light mode)" },
+      "light-tertiary": { "value": "#F1F5F9", "type": "color", "description": "Elevated surface (light mode)" }
+    },
+    "text": {
+      "primary-dark": { "value": "#F8FAFC", "type": "color", "description": "Primary text on dark bg" },
+      "secondary-dark": { "value": "#94A3B8", "type": "color", "description": "Secondary text on dark bg" },
+      "primary-light": { "value": "#0F172A", "type": "color", "description": "Primary text on light bg" },
+      "secondary-light": { "value": "#64748B", "type": "color", "description": "Secondary text on light bg" }
+    },
+    "border": {
+      "dark": { "value": "#1E3A5F", "type": "color", "description": "Border on dark surfaces" },
+      "light": { "value": "#E2E8F0", "type": "color", "description": "Border on light surfaces" }
+    },
+    "ai": {
+      "DEFAULT": { "value": "#8B5CF6", "type": "color", "description": "AI-related features" },
+      "light": { "value": "#A78BFA", "type": "color" }
+    },
+    "neutral": {
+      "50":  { "value": "#F8FAFC", "type": "color" },
+      "100": { "value": "#F1F5F9", "type": "color" },
+      "200": { "value": "#E2E8F0", "type": "color" },
+      "300": { "value": "#CBD5E1", "type": "color" },
+      "400": { "value": "#94A3B8", "type": "color" },
+      "500": { "value": "#64748B", "type": "color" },
+      "600": { "value": "#475569", "type": "color" },
+      "700": { "value": "#334155", "type": "color" },
+      "800": { "value": "#1E293B", "type": "color" },
+      "900": { "value": "#0F172A", "type": "color" },
+      "950": { "value": "#020617", "type": "color" }
+    }
+  }
+}
